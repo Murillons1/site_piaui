@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="./public/js/barra.js" defer></script>
+    <link rel="stylesheet" href="./public/css/area.css">
     <link rel="stylesheet" href="./public/css/style.css">
-    <title>Gráficos de Barra</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./public/js/area.js" defer></script>
+    <title>História</title>
 </head>
 <header>
     <div class="cabecalho">
@@ -33,27 +34,21 @@
                 <a href="./setores.html">Gráficos de Setores</a>
             </div>
     </div>
-    
 </header>
 <body>
-    
-    <section >
-        <main> 
-            <div class="main" style="width: 400px; height: auto;">
-                <canvas id="grafico"></canvas>
+    <main> 
+        <div class="graficos">
+            <div style="width: 500px; height: 400px;">
+                <canvas id="grafico_area"></canvas>
+            <div style="width: 500px; height: 400px;">
+                <canvas id="grafico_area2"></canvas>
             </div>
-            <div class="main" style="width: 400px; height: auto;">
-                <canvas id="grafico2"></canvas>
-            </div>
-        </main>
-</section>
-
-
+        </div>
+            
         
+    </main>
     <footer>
-
-
-
     </footer>
+
 </body>
 </html>

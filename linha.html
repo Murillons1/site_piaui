@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./public/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="./public/css/linha.css">
+    <script src="./public/js/linha.js" defer></script>
     <title>Gráficos de Linhas</title>
 </head>
 <body>
@@ -24,7 +26,7 @@
                     <a href="./barra.html">Gráficos de Barras</a>
                 </div>
                 <div>
-                    <a href="./pizza.html">Gráficos de Pizza</a>
+                    <a href="./area.html">Gráficos de Área</a>
                 </div>
                 <div>
                     <a href="./linha.html">Gráficos de Linha</a>
@@ -34,12 +36,31 @@
                 </div>
         </div>
     </header>
-    <section >
+    <main>  
+        <h1>Grafico de de Linhas sobre a Escravidão no Piáui</h1>
+        <div class="graficos">
+            <div class="graf1">
+                <div style="width: 800px; height: 400px;">
+                    <canvas id="grafico_barras3"></canvas>
+                </div>
+            </div>
 
-    </section>
-    <main> 
+            <div class="graf2">
+                <div style="width: 500px; height: 400px;">
+                    <canvas id="grafico_barras"></canvas>
+                </div>
+                <div style="width: 500px; height: 400px;">
+                    <canvas id="grafico_barras2"></canvas>
+                </div>
+            </div>
+            
 
-        
+
+
+            
+
+        </div>
+
 
 
     </main>
