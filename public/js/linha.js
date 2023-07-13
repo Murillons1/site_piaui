@@ -5,7 +5,7 @@ var data = {
     {
       label: 'Setores Econômicos mais frequentemente Envolvidos ',
       data: [139, 125, 102,11,9,4,3,3,1],
-      fill:true,
+      fill:false,
       borderColor: '#FFFAFA',
       tension: 0.1
       
@@ -39,7 +39,7 @@ var data = {
     {
       label: 'Ocupações - Resgatados Naturais da UF',
       data: [122, 107, 77,65,54,31,25,24,141],
-      fill: true,
+      fill: false,
       borderColor: '#FFFAFA		',
       tension: 0.1
       
@@ -71,7 +71,7 @@ var data = {
     {
       label: 'Ocupações - Resgatados Residentes na UF',
       data: [105,97, 80,68,39,31,26,24,120],
-      fill: true,
+      fill: false,
       borderColor: '#FFFAFA		',
       tension: 0.1
       
@@ -105,7 +105,7 @@ var data = {
     {
       label: 'Raça - Resgatados Naturais da UF',
       data: [488, 79, 76],
-      fill: true,
+      fill: false,
       borderColor: '#FFFAFA		',
       tension: 0.1
       
@@ -139,7 +139,7 @@ var data = {
     {
       label: 'Raça - Resgatados Residentes na UF',
       data: [456, 74, 57],
-      fill: true,
+      fill: false,
       borderColor: '#FFFAFA',
       tension: 0.1
       
@@ -172,7 +172,7 @@ var data = {
     {
       label: 'Escolaridade - Resgatados Naturais da UF',
       data: [177,122,92,85,64,58,47],
-      fill: true,
+      fill: false,
       borderColor: '#FFFAFA		',
       tension: 0.1
       
@@ -204,7 +204,7 @@ var data = {
     {
       label: 'Escolaridade - Resgatados Residentes na UF',
       data: [170,105,76,66,64,53,53],
-      fill: true,
+      fill: false,
       borderColor: '#FFFAFA		',
       tension: 0.1
       
@@ -236,7 +236,7 @@ var data = {
     {
       label: 'Perfil Etário e de Sexo - Resgatados Naturais da UF',
       data: [8, 18, 29, 46, 70, 89, 97, 102,149,14],
-      fill: true,
+      fill: false,
       borderColor: '#FFFAFA',
       tension: 0.1
       
@@ -270,7 +270,7 @@ var data = {
     {
       label: 'Perfil Etário e de Sexo - Resgatados Residentes na UF',
       data: [4, 13, 31, 41, 67, 82, 90, 94,143,17],
-      fill: true,
+      fill: false,
       borderColor: '#FFFAFA',
       tension: 0.1
       
@@ -304,7 +304,7 @@ var data = {
     {
       label: 'Perfil Etário e de Sexo - Resgatados Residentes na UF',
       data: [0,0,0,4, 5, 3, 4, 4, 4, 2],
-      fill: true,
+      fill: false,
       borderColor: '#FFFAFA',
       tension: 0.1
       
@@ -340,7 +340,7 @@ var data = {
     {
       label: 'Perfil Etário e de Sexo - Resgatados Residentes na UF',
       data: [0,0,0,0,0,2, 1, 1, 1, 3],
-      fill: true,
+      fill: false,
       borderColor: '#FFFAFA',
       tension: 0.1
       

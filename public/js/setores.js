@@ -5,7 +5,7 @@ var dados = {
     labels: ['Estração de Pedra,Argila e Areia', 'Produção florestal-florestas nativas', 'Cultivo de soja',"Atividade de apoio a agricultura","Fabricação de produtos cerâmicos refratários","Produção florestal-florestas plantadas","Criação de bovinos","Fabricação de bovinos e derivados","Fabricação de artefatos de couro não especificado"],
     datasets: [{
         data: [139, 125, 102,11,9,4,3,3,1],
-        backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"] // Cores de fundo para cada setor
+        backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"] 
     }]
 };
 
@@ -27,7 +27,7 @@ var dados = {
     labels: ['Trabalhador volante da agricultura', 'Trabalhador da exploração de Canauba', 'Cortador de Pedras',"Trabalho Agropecuário","Trabalhador da Pecuária","Destroçador de Pedra","Trabalhador da Cultura da cana-açucar","Servente de obras","Outros"],
     datasets: [{
         data: [122, 107, 77,65,54,31,25,24,141],
-        backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"] // Cores de fundo para cada setor
+        backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"]
     }]
 };
 
@@ -49,7 +49,7 @@ var dados = {
     labels: ['Trabalhador volante da agricultura', 'Trabalhador da exploração de Canauba', 'Cortador de Pedras',"Trabalho Agropecuário","Trabalhador da Pecuária","Destroçador de Pedra","Trabalhador da Cultura da cana-açucar","Servente de obras","Outros"],
     datasets: [{
         data: [105,97, 80,68,39,31,26,24,120],
-        backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"] // Cores de fundo para cada setor
+        backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"] 
     }]
 };
 
@@ -71,7 +71,7 @@ var dados = {
     labels: ['PARDA', 'BRANCA', 'PRETA'],
     datasets: [{
         data: [488, 79, 76],
-        backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"] // Cores de fundo para cada setor
+        backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"] 
     }]
 };
 
@@ -92,7 +92,7 @@ var dados = {
     labels: ['PARDA', 'BRANCA', 'PRETA'],
     datasets: [{
         data: [456, 74, 57],
-        backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"] // Cores de fundo para cada setor
+        backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"] 
     }]
 };
 
@@ -114,7 +114,7 @@ var dados = {
     labels: ['ATÉ 5º ANO INCOMPLETO', '6º AO 9º ANO INCOMPLETO',"FUNDAMENTAL COMPLETO",'ENSINO MEDIO COMPLETO',"ANALFABETO",'ENSINO MEDIO  INCOMPLETO',"5º ANO COMPLETO"],
     datasets: [{
         data: [177,122,92,85,64,58,47],
-        backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"] // Cores de fundo para cada setor
+        backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"]
     }]
 };
 
@@ -136,7 +136,7 @@ var dados = {
     labels: ['ATÉ 5º ANO INCOMPLETO', '6º AO 9º ANO INCOMPLETO',"FUNDAMENTAL COMPLETO",'ENSINO MEDIO COMPLETO',"ANALFABETO",'ENSINO MEDIO  INCOMPLETO',"5º ANO COMPLETO"],
     datasets: [{
         data: [170,105,76,66,64,53,53],
-        backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"] // Cores de fundo para cada setor
+        backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"] 
     }]
 };
 
@@ -158,7 +158,7 @@ var dados = {
     labels: ['>60', '55-59', '50-54', "45-49", "40-44", "35-39", "30-34", "25-29", "18-24", "<18"],
     datasets: [{
         data: [8, 18, 29, 46, 70, 89, 97, 102,149,14],
-        backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"] // Cores de fundo para cada setor
+        backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"] 
     }]
 };
 
@@ -179,7 +179,7 @@ var dados = {
     labels: ['>60', '55-59', '50-54', "45-49", "40-44", "35-39", "30-34", "25-29", "18-24", "<18"],
     datasets: [{
         data: [4, 13, 31, 41, 67, 82, 90, 94,143,17],
-        backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"] // Cores de fundo para cada setor
+        backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"]
     }]
 };
 
@@ -200,7 +200,7 @@ var dados = {
     labels: ['>60', '55-59', '50-54', "45-49", "40-44", "35-39", "30-34", "25-29", "18-24", "<18"],
     datasets: [{
         data: [0,0,0,4, 5, 3, 4, 4, 4, 2],
-        backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"] // Cores de fundo para cada setor
+        backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"] 
     }]
 };
 
