@@ -5,9 +5,17 @@
 }
 
 body{
-    background-color: orange;
+
+}
+main{
+    background-repeat: no-repeat;
+
 }
 
+h1{
+    text-align: center;
+    padding-top: 30px;
+}
 .cabecalho{
     display: flex;
     flex-direction: row;
@@ -24,4 +32,29 @@ body{
 
 header{
     border: 1px solid black;
+    background-color: brown;
+}
+.his{
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.his h2{
+    font-size: 20px;
+    padding: 30px;
+}
+
+.graficosi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    gap:30px;
+    padding-top: 50px;
+    
+}
+.graficosi a{
+    text-decoration: none;
+    color: black;
 }
