@@ -77,3 +77,33 @@ canvas{
     align-items: center;
 
 }
+
+@media (max-width: 412px) and (max-height: 915px) {
+    h1 {
+      padding: 20px;
+      gap: 10px;
+    }
+  
+    h2 {
+      padding: 30px;
+    }
+  
+    h3 {
+      padding: 30px;
+    }
+  
+    canvas {
+      border: none;
+    }
+  
+    .graf1,
+    .graf2,
+    .graf3,
+    .graf4,
+    .graf5,
+    .graf6 {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }

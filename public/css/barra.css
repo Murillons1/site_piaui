@@ -62,3 +62,36 @@ canvas{
     justify-content: space-evenly;
     padding-top: 50px;
 }
+
+@media (max-width: 412px) and (max-height: 915px) {
+    h1 {
+      padding: 20px;
+      gap: 10px;
+    }
+  
+    h2 {
+      padding-top: 20px;
+      padding: 20px;
+    }
+  
+    h3 {
+      margin: 20px;
+    }
+  
+    canvas {
+      border: none;
+    }
+  
+    .grafico1,
+    .grafico2,
+    .grafico3,
+    .grafico4,
+    .grafico5,
+    .grafico6 {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 30px;
+      gap: 10px;
+    }
+  }

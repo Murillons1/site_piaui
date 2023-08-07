@@ -1,0 +1,23 @@
+.cnt{
+    font-size: 60px;
+    padding: 30px;
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.texto{
+    margin: auto;
+    font-size: 35px;
+    text-align: center;
+}
+@media (max-width: 412px) and (max-height: 915px) {
+    .cnt {
+      font-size: 40px;
+      padding: 20px;
+    }
+  
+    .texto {
+      font-size: 25px;
+    }
+  }
