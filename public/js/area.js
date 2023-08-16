@@ -1,5 +1,5 @@
  var data = {
-  labels: ['Estração de Pedra,Argila e Areia', 'Produção florestal-florestas nativas', 'Cultivo de soja',"Atividade de apoio a agricultura","Fabricação de produtos cerâmicos refratários","Produção florestal-florestas plantadas","Criação de bovinos","Fabricação de bovinos e derivados","Fabricação de artefatos de couro não especificado"],
+  labels: ['Estração de Pedra,Argila e Areia', 'Produção florestal', 'Cultivo de soja',"Atividade apoiada a agricultura","Fabricação de produtos cerâmicos refratários","Produção florestal","Criação de bovinos","Fabricação de bovinos e derivados","Fabricação de artefatos de couro n/especificado"],
     datasets: [{
       label: 'Setores Econômicos mais frequentemente Envolvidos ',
       data: [139, 125, 102,11,9,4,3,3,1],
@@ -30,7 +30,7 @@ var areaChart = new Chart(ctx, {
 /////////////// Grafico 2 //////////////////////
 
  var data = {
-  labels: ['Trabalhador volante da agricultura', 'Trabalhador da exploração de Canauba', 'Cortador de Pedras',"Trabalho Agropecuário","Trabalhador da Pecuária","Destroçador de Pedra","Trabalhador da Cultura da cana-açucar","Servente de obras","Outros"],
+  labels: ['Trabalhador de agricultura', 'Trabalhador de exploração', 'Cortador de Pedras',"Trabalho Agropecuário","Trabalhador da Pecuária","Destroçador de Pedra","Trabalhador da cana-açucar","Servente de obras","Outros"],
   datasets: [{
     label: 'Ocupações - Resgatados Naturais da UF',
     data: [122, 107, 77,65,54,31,25,24,141],
@@ -73,7 +73,7 @@ var areaChart = new Chart(ctx, {
   labels: ['PARDA', 'PRETA', 'BRANCA'],
     datasets: [{
       label: 'Raça - Resgatados Naturais da UF',
-      data: [488, 79, 76],
+      data: [467, 79, 76],
       backgroundColor: '#87CEEB',
       borderColor: '#87CEEB',
       borderWidth: 1,
@@ -111,7 +111,7 @@ var areaChart = new Chart(ctx, {
 /////////////// Grafico 6 //////////////////////
 
 var data = {
-  labels: ['ATÉ 5º ANO INCOMPLETO', '6º AO 9º ANO INCOMPLETO',"FUNDAMENTAL COMPLETO",'ENSINO MEDIO COMPLETO',"ANALFABETO",'ENSINO MEDIO  INCOMPLETO',"5º ANO COMPLETO"],
+  labels: ['ATÉ 5º INCOMPLETO', '6º - 9º ANO INCOMPLETO',"FUNDAMENTAL COMPLETO",'MEDIO COMPLETO',"ANALFABETO",'MEDIO INCOMPLETO',"5º COMPLETO"],
     datasets: [{
       label: 'Escolaridade - Resgatados Naturais da UF',
       data: [177,122,92,85,64,58,47],
@@ -217,3 +217,6 @@ var areaChart = new Chart(ctx, {
   data: data,
   options: options
 });
+
+
+

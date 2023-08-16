@@ -1,6 +1,6 @@
 // -----------------------Gráfico Barras--------------------------------------------//
 var data = {
-  labels: ['Estração de Pedra,Argila e Areia', 'Produção florestal-florestas nativas', 'Cultivo de soja',"Atividade de apoio a agricultura","Fabricação de produtos cerâmicos refratários","Produção florestal-florestas plantadas","Criação de bovinos","Fabricação de bovinos e derivados","Fabricação de artefatos de couro não especificado"],
+  labels: ['Estração ', 'Produção florestal', 'Cultivo de soja',"Atividade de agricultura","Fabricação de produtos cerâmicos refratários","Produção florestal","Criação de boi","Fabricação de boi e etc","Fabricação de material"],
   datasets: [
     {
       label: 'Setores Econômicos mais frequentemente Envolvidos ',

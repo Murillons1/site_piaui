@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./public/css/mapa.css">
+    <link rel="stylesheet" href="./public/css/area.css">
     <link rel="stylesheet" href="./public/css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <title>Mapa</title>
+    <link rel="stylesheet" href="./public/css/estatistica.css">
+    <script src="./public/js/estatistica.js" defer></script>
+    <title>História</title>
 </head>
 <header>
     <div class="cabecalho">
@@ -40,6 +42,20 @@
             </div>
     </div>
 </header>
-
-<h1>Mapa dos escravos resgatados no Piauí</h1>
-<img class="img" src="./public/img/mapa_piaui.png" alt=""  style="width: 700px; height: 500px;">
+<body>
+    <main> 
+        <h1>Perfil dos casos de Trabalho Escravo</h1>
+        <h2>Setores Econômicos mais frequentemente Envolvidos</h2>
+        <div class="graficos">
+            <div class="grafico_area1">
+                <div style="width: 700px; height: 400px;">
+                    <canvas id="grafico_area1"></canvas>
+                </div>
+                <button id="media">Media</button>
+                <br><br>
+                <div id="med_idad" style="font-size: 15px; font-weight: bolder; font-family: sans-serif;"></div>
+                <div id="varianc" style="font-size: 15px; font-weight: bolder; font-family: sans-serif;"></div>
+                <div id="desv_pad" style="font-size: 15px; font-weight: bolder; font-family: sans-serif;"></div>
+                <div id="med_pond" style="font-size: 15px; font-weight: bolder; font-family: sans-serif;"></div>
+            </div>
+</main>
