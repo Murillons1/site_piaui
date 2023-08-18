@@ -3,8 +3,8 @@ var data = {
       datasets: [{
         label: 'Setores Econômicos mais frequentemente Envolvidos ',
         data: [139, 125, 102,11,9,4,3,3,1],
-        backgroundColor: '#87CEEB',
-        borderColor: '#87CEEB',
+        backgroundColor: '#FFD700',
+        borderColor: '#8A2BE2',
         borderWidth: 1,
         fill:true
   
@@ -47,6 +47,7 @@ let med_pod
 media.addEventListener('click', ()=>{
     let soma = 0
     let contador = 0
+
     
     for(let i=0;i<dados.length;i++){
         soma += Number(dados[i])
@@ -72,5 +73,8 @@ media.addEventListener('click', ()=>{
     varianc.innerHTML = 'A variância é = ' + variancia.toFixed(2)
     desv_pad.innerHTML = 'O desvio padrão é = ' + desvio_padrao.toFixed(2)
     
+    media.style.display = "none"
+
+
 })
 
