@@ -32,6 +32,10 @@
     border: 8px;
 
 }
+
+.text_media{
+  box-shadow: none;
+}
 table,th,td{
   border-collapse: collapse;
   border: 2px solid black;

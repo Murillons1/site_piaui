@@ -19,7 +19,12 @@ h3{
     padding: 50px;
 }
 
-
+p{
+    text-align: center;
+    padding: 30px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
 
 .graf1{
     display: flex;

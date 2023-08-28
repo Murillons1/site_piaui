@@ -38,8 +38,8 @@ var data = {
     },{
       label: 'Ocupações - Resgatados Residentes na UF',
       data: [105,97, 80,68,39,31,26,24,120],
-      backgroundColor: '#FFFFFF',
-      borderColor: '#FFFFFF', 
+      backgroundColor: '#B8860B',
+      borderColor: '#B8860B', 
       borderWidth: 1 
     }]
   };
@@ -73,8 +73,8 @@ var data = {
     },{
       label: 'Raça - Resgatados Residentes na UF',
       data: [456, 74, 57],
-      backgroundColor: '#FFFFFF',
-      borderColor: '#FFFFFF', 
+      backgroundColor: '#B8860B',
+      borderColor: '#B8860B', 
       borderWidth: 1 
     }]
   };
@@ -109,8 +109,8 @@ var data = {
     },{
       label: 'Escolaridade - Resgatados Residentes na UF',
       data: [170,105,76,66,64,53,53],
-      backgroundColor: '#FFFFFF',
-      borderColor: '#FFFFFF', 
+      backgroundColor: '#B8860B',
+      borderColor: '#B8860B', 
       borderWidth: 1 
     }]
   };
@@ -144,8 +144,8 @@ var data = {
     },{
       label: 'Perfil Etário e de Sexo - Resgatados Residentes na UF',
       data: [4, 13, 31, 41, 67, 82, 90, 94,143,17],
-      backgroundColor: '#FFFFFF',
-      borderColor: '#FFFFFF', 
+      backgroundColor: '#B8860B',
+      borderColor: '#B8860B', 
       borderWidth: 1 
     }]
   };
@@ -178,8 +178,8 @@ var data = {
     },{
       label: 'Perfil Etário e de Sexo - Resgatados Residentes na UF',
       data: [0,0,0,2, 1, 1, 1, 3],
-      backgroundColor: '#FFFFFF',
-      borderColor: '#FFFFFF' , 
+      backgroundColor: '#B8860B',
+      borderColor: '#B8860B' , 
       borderWidth: 1 
     }]
   };

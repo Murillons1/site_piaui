@@ -24,6 +24,12 @@ canvas{
     border: 1px solid black;
 }
 
+p{
+    text-align: center;
+    padding: 30px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 
 .graf1{
@@ -31,7 +37,7 @@ canvas{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+;}
 
 
 
