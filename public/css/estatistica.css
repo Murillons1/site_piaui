@@ -67,3 +67,7 @@ td{
       background-position:20vw;
     }
   }
+
+  table{
+    margin: auto;
+  }
